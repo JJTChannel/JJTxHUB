@@ -39,12 +39,22 @@ do
     end)
     if checker then
         loadstring(games)()
+    Credit:Label("Execute Universal script")
+    Credit:Button("Execute",function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3WNXPCtH", true))()
+    end)
     else
         game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Game Not Supported =(",
   Text = "...",
   Duration = 5
 })
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+  Title = "Loading universal script",
+  Text = "...",
+  Duration = 5
+})
+    loadstring(game:HttpGet("https://pastebin.com/raw/3WNXPCtH", true))()
         Invite()
         setclipboard(inv)
     end
