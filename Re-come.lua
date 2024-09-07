@@ -36,7 +36,7 @@ local Player = game.Players.LocalPlayer
 })
 
 function MakeScriptHub()
-    loadstring(game:HttpGet('https://pi-hub3-14.vercel.app/sc/hub/loader.lua'))() 
+    loadstring(game:HttpGet('https://pi-hub3-14.vercel.app/protected/loader.lua'))() 
 end
 
 OrionLib:MakeNotification({
