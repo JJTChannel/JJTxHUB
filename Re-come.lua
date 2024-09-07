@@ -28,7 +28,7 @@ end
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))() 
 local Player = game.Players.LocalPlayer
   local Window = OrionLib:MakeWindow({
-		Name = "Pi Hub - Key System",
+		Name = "JJTxHub - Discontinued",
 		HidePremium = false,
 		SaveConfig = true,
 		ConfigFolder = "OrionTest",
@@ -45,6 +45,12 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 }) 
+
+local Tab = Window:MakeTab({
+	Name = "JJTxHub Discontinued",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
 Tab:AddButton({
     Name = "Load JJTxHub",
